@@ -1,0 +1,4 @@
+Me.Cursor = New Cursor(Cursor.Current.Handle)
+        Cursor.Position = New Point(Label1.Text, Label2.Text)
+        mouse_event(&H8)
+        mouse_event(&H10)

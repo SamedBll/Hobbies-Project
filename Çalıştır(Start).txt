@@ -1,0 +1,3 @@
+   Dim startInfo As New ProcessStartInfo
+            startInfo.FileName = "Çalýþtýr.exe"
+            Process.Start(startInfo)
